@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    background: bisque;
+    padding: 18px;
+    margin-bottom: 28px;
+    min-height: 100px;
+}
+
+.item{
+    background: aqua;
+    color: aliceblue;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+.column{
+    flex-direction: column;
+
+}
+
+.center{
+    justify-content: center;
+}
+
+.align{
+    align-items: center;
+}
